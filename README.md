@@ -2,13 +2,35 @@
 # AIM:
 
 To connect computers in multiple networks using Distance Vector Routing Protocol and to verify the connectivity between computers.
-# EQUIPMENTS REQUIRED:
-Desktop computer Cisco Packet Tracer 5.0 Software.
+##  EQUIPMENTS REQUIRED
 
+| S.No | Name                   | Quantity |
+|------|------------------------|----------|
+| 1    | Desktop Computer       | 4        |
+| 2    | Cisco 1800 Router      | 2        |
+| 3    | USB to Serial Converter| 2        |
+| 4    | Cisco 2900 Switch      | 2        |
+| 5    | CAT 6 Patch Cable      | 10       |
+| 6    | Console Cable          | 2        |
 
-# IP ASSIGNMENT:
+---
 
+##  IP ASSIGNMENT
 
+| Name       | IP Address     | Subnet Mask     | Network      | Class | Gateway        |
+|------------|----------------|-----------------|--------------|-------|----------------|
+| PC0        | 192.168.0.1    | 255.255.255.0   | 192.168.0.0  | C     | 192.168.0.200  |
+| PC1        | 192.168.0.2    | 255.255.255.0   | 192.168.0.0  | C     | 192.168.0.200  |
+| PC2        | 192.168.1.1    | 255.255.255.0   | 192.168.1.0  | C     | 192.168.1.200  |
+| PC3        | 192.168.1.2    | 255.255.255.0   | 192.168.1.0  | C     | 192.168.1.200  |
+| PC4        | 192.168.2.1    | 255.255.255.0   | 192.168.2.0  | C     | 192.168.2.200  |
+| PC5        | 192.168.2.2    | 255.255.255.0   | 192.168.2.0  | C     | 192.168.2.200  |
+| Router0 F0/0 | 192.168.0.200 | 255.255.255.0   | 192.168.0.0  | C     | —              |
+| Router0 S2/0| 192.168.1.200 | 255.255.255.0   | 192.168.1.0  | C     | —              |
+| Router1 F0/0| 192.168.1.201 | 255.255.255.0   | 192.168.1.0  | C     | —              |
+| Router1 S2/0| 192.168.2.200 | 255.255.255.0   | 192.168.2.0  | C     | —              |
+
+---
 
 # NETWORK DIAGRAM:
 <img width="961" height="1080" alt="Screenshot (359)" src="https://github.com/user-attachments/assets/3e8152dc-ed5e-4503-a78b-f989853f0194" />
